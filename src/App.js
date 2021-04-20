@@ -64,7 +64,7 @@ function App() {
             </div>
             <div className="col m6 s12">
               {error ? (
-                <Error mensaje="No hay resultados" />
+                <Error mensaje="La ciudad no es correcta" />
               ) : (
                 <Clima resultado={resultado} />
               )}
